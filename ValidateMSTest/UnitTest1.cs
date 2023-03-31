@@ -17,7 +17,7 @@ namespace UserRegistrationTest
         [TestMethod]
         public void GivenUserFistName_WhenValidate_ShouldReturnTrue()
         {
-            string firstName = "Suraj";
+            string firstName = "Pallavi";
             //Act
             bool result = user.ValidateFirstName(firstName);
             //Assert
@@ -26,7 +26,7 @@ namespace UserRegistrationTest
         [TestMethod]
         public void GivenUserLastName_WhenValidate_ShouldReturnTrue()
         {
-            string lastName = "Sharma";
+            string lastName = "Athawale";
             //Act
             bool result = user.ValidateFirstName(lastName);
             //Assert
@@ -35,7 +35,7 @@ namespace UserRegistrationTest
         [TestMethod]
         public void GivenEmailId_WhenValidate_ShouldReturnTrue()
         {
-            string email = "surajsharma@gmail.com";
+            string email = "athawalepallavi22@gmail.com";
             //Act
             bool result = user.ValidateEmail(email);
             //Assert
@@ -44,7 +44,7 @@ namespace UserRegistrationTest
         [TestMethod]
         public void GivenMobileNumber_WhenValidate_ShouldReturnTrue()
         {
-            string mobileNumber = "91 8630539412";
+            string mobileNumber = "91 7218533707";
             //Act
             bool result = user.ValidateMobile(mobileNumber);
             //Assert
@@ -55,7 +55,7 @@ namespace UserRegistrationTest
         {
             //Arrange
 
-            string password = "Suraj$212";
+            string password = "Pallav@22";
             //Act
             bool result = user.ValidatePassword(password);
             //Assert
@@ -65,7 +65,7 @@ namespace UserRegistrationTest
         [TestMethod]
         public void GivenUserFistName_WhenValidate_ShouldReturnFalse()
         {
-            string firstName = "suraj";
+            string firstName = "Pallavi";
             //Act
             bool result = user.ValidateFirstName(firstName);
             //Assert
@@ -74,7 +74,7 @@ namespace UserRegistrationTest
         [TestMethod]
         public void GivenUserLastName_WhenValidate_ShouldReturnFalse()
         {
-            string lastName = "sharma";
+            string lastName = "Athawale";
             //Act
             bool result = user.ValidateFirstName(lastName);
             //Assert
@@ -83,7 +83,7 @@ namespace UserRegistrationTest
         [TestMethod]
         public void GivenEmailId_WhenValidate_ShouldReturnFalse()
         {
-            string email = "Sharma.suraj.com";
+            string email = "athawalepallavi22@gmail.com";
             //Act
             bool result = user.ValidateEmail(email);
             //Assert
@@ -92,7 +92,7 @@ namespace UserRegistrationTest
         [TestMethod]
         public void GivenMobileNumber_WhenValidate_ShouldReturnFalse()
         {
-            string mobileNumber = "91 0863053941";
+            string mobileNumber = "91 7258533822";
             //Act
             bool result = user.ValidateMobile(mobileNumber);
             //Assert
@@ -101,7 +101,7 @@ namespace UserRegistrationTest
         [TestMethod]
         public void GivenPassword_WhenValidate_ShouldReturnFalse()
         {
-            string password = "suraj@123*";
+            string password = "pallu@123*";
             //Act
             bool result = user.ValidatePassword(password);
             //Assert
