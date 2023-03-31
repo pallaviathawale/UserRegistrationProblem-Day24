@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRegistarionProblemUsingLambadaExpression", "UserRegistarionProblemUsingLambadaExpression\UserRegistarionProblemUsingLambadaExpression.csproj", "{FB5ADCAA-0C11-4045-B65A-045A03EC1DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateMSTest", "ValidateMSTest\ValidateMSTest.csproj", "{E24056DF-1830-42A2-ACBA-D272112FA8FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB5ADCAA-0C11-4045-B65A-045A03EC1DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5ADCAA-0C11-4045-B65A-045A03EC1DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5ADCAA-0C11-4045-B65A-045A03EC1DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5ADCAA-0C11-4045-B65A-045A03EC1DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E24056DF-1830-42A2-ACBA-D272112FA8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24056DF-1830-42A2-ACBA-D272112FA8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E24056DF-1830-42A2-ACBA-D272112FA8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E24056DF-1830-42A2-ACBA-D272112FA8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {561D45D0-45F7-454F-A133-A0CAC424A295}
+	EndGlobalSection
+EndGlobal
